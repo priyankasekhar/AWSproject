@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	<table>
+		<tr>
+			<td><h1 id = "message">Welcome</h1></td>
+		</tr>
+		<tr><td>
+				<form action="/upload12" method="post" enctype="multipart/form-data">
+				<p class='description'></p><h4 id = "message">Please upload your documents here:</h4>
+				<input type="file" name="file">
+				<input type="submit" value="upload" name="Submit"<br><br>
+				</form>
+		</td></tr>
+		<tr>
+			<td><h1 id = "message">Welcome</h1></td>
+		</tr>
+		<tr><td>
+				<form action="/search" method="get" enctype="multipart/form-data">
+				<p class='description'></p><h4 id = "message">Time taken to execute queries</h4>
+				<input type="text" name="file">
+				<input type="submit" value="search" name="Submit"<br><br>
+				</form>
+		</td></tr>
+		<tr>
+			<td><h1 id = "message">Enter the filename to load into database:</h1></td>
+		</tr>
+		<tr><td>
+				<form action="/db" method="get" enctype="multipart/form-data">
+				<p class='description'></p><h4 id = "message">Time taken to execute queries</h4>
+				<input type="text" name="file">
+				<input type="submit" value="search" name="Submit"<br><br>
+				</form>
+		</td></tr>
+    </table>
+</body>
+</html>
